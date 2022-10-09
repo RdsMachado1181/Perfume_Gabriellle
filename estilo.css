@@ -23,6 +23,12 @@ body{
     border: 1px solid blue;
 
 }
+.container .foto img{
+    width:100% ;
+    height:100%; 
+    
+
+} 
 
 .container .conteudo{
     width:250px ;
@@ -32,17 +38,36 @@ body{
 padding-top: 45px;
 padding-left: 25px;
 }
+
+.container .conteudo h1{
+    font-size: 30px;
+}
 .container .conteudo .texto-valor{
 
  display: flex;
 }
 .container .conteudo .botão{
     width: 180px;
-    height: 60px;
+    height: 50px;
     border-radius: 10px;
-background-color: darkcyan;
+   background-color: darkcyan;
     display: flex;
-    margin-top: 45px;
+    margin-top: 35px;
+   }
+ 
+   .container .conteudo .botão  p{
+    margin-right: 25px;
+    color: white;
+    font-family:  'Franceus' ;
+    
+   }
+   .container .conteudo .botão img{
+    width: 20px;
+    height: 20px;
+   margin-top: 12px;
+   }
+   .container .conteudo .texto-valor h1  {
+ color: darkcyan;
    }
 .container .conteudo p, .container .conteudo h1{
    
