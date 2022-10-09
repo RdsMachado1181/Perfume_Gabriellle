@@ -13,20 +13,20 @@ body{
     width:500px ;
      height: 500px;
     display: flex;
-    border: 1px solid blue;
+    
 
 }
 
 .container .foto{
     width:250px ;
     height: 500px; 
-    border: 1px solid blue;
-
+  
+ 
 }
 .container .foto img{
     width:100% ;
     height:100%; 
-    
+   border-radius: 20px 0px 0px 20px ; 
 
 } 
 
@@ -37,6 +37,7 @@ body{
  text-align: left;
 padding-top: 45px;
 padding-left: 25px;
+border-radius: 0px 20px 20px 0px ;
 }
 
 .container .conteudo h1{
