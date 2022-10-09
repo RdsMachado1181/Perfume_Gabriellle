@@ -1,0 +1,50 @@
+*{
+    margin: 0px auto;
+    padding: 0px ;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+body{
+   background-color: bisque;
+    display: flex;
+    margin-top:150px;
+} 
+.container{
+    width:500px ;
+     height: 500px;
+    display: flex;
+    border: 1px solid blue;
+
+}
+
+.container .foto{
+    width:250px ;
+    height: 500px; 
+    border: 1px solid blue;
+
+}
+
+.container .conteudo{
+    width:250px ;
+    height: 500px;
+ background-color: white;
+ text-align: left;
+padding-top: 45px;
+padding-left: 25px;
+}
+.container .conteudo .texto-valor{
+
+ display: flex;
+}
+.container .conteudo .botão{
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+background-color: darkcyan;
+    display: flex;
+    margin-top: 45px;
+   }
+.container .conteudo p, .container .conteudo h1{
+   
+  padding-top: 25px;
+}
