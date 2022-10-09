@@ -53,10 +53,13 @@ border-radius: 0px 20px 20px 0px ;
     border-radius: 10px;
    background-color: darkcyan;
     display: flex;
-    margin-top: 35px;
+    flex-direction: row;
+    margin-top: 20px;
+    cursor: pointer;
    }
  
    .container .conteudo .botão  p{
+    
     margin-right: 25px;
     color: white;
     font-family:  'Franceus' ;
@@ -70,6 +73,9 @@ border-radius: 0px 20px 20px 0px ;
    .container .conteudo .texto-valor h1  {
  color: darkcyan;
    }
+   .container .conteudo #texto-conteudo{
+    line-height: 25px;
+   } 
 .container .conteudo p, .container .conteudo h1{
    
   padding-top: 25px;
