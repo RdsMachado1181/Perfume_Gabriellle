@@ -5,7 +5,7 @@
     font-size: 14px;
 }
 body{
-   background-color: bisque;
+   background-color: hsl(30, 38%, 92%);
     display: flex;
     margin-top:150px;
 } 
@@ -42,9 +42,10 @@ border-radius: 0px 20px 20px 0px ;
 
 .container .conteudo h1{
     font-size: 30px;
+    color: Very dark  hsl(212, 21%, 14%);
 }
 .container .conteudo .texto-valor{
-
+ 
  display: flex;
 }
 .container .conteudo .botão{
@@ -52,27 +53,34 @@ border-radius: 0px 20px 20px 0px ;
     height: 50px;
     border-radius: 10px;
    background-color: darkcyan;
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+   margin-top: 12px;
     cursor: pointer;
-   }
- 
-   .container .conteudo .botão  p{
-    
-    margin-right: 25px;
     color: white;
-    font-family:  'Franceus' ;
-    
-   }
+   }   
    .container .conteudo .botão img{
     width: 20px;
     height: 20px;
    margin-top: 12px;
    }
+   .container .conteudo .texto-valor  {
+    
+   display: flex;
+   text-align: center;
+      }
+    
+      .container .conteudo p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:300;
+      }
    .container .conteudo .texto-valor h1  {
  color: darkcyan;
+  
    }
+   .container .conteudo .texto-valor span  {
+    padding-right: 30px;
+    text-decoration: line-through;
+ 
+      }
    .container .conteudo #texto-conteudo{
     line-height: 25px;
    } 
