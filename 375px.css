@@ -1,0 +1,40 @@
+@media ( max-width: 500px    ){
+    *{
+        font-size: 8px;
+         
+    }
+    .container{
+        width:360px ;
+         height: 360px;
+        display: flex;
+    
+    
+    }
+    .container .foto{
+        width:50%;
+        height: 360px; 
+      
+     
+    }
+    .container .conteudo{
+        width:50% ;
+        height: 360px; 
+     
+    }
+    .container .conteudo h1{
+        font-size: 15px;
+    }
+    .container .conteudo .botão{
+        width:  80px;
+        height: 30px; 
+    border-color: white;
+       } 
+       .container .conteudo .botão img{
+        width: 5px;
+        height: 5px;
+      
+       } 
+       .container .conteudo #texto-conteudo{
+        line-height: 15px;
+       } 
+}
