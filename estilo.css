@@ -46,17 +46,19 @@ border-radius: 0px 20px 20px 0px ;
 }
 
 .container .conteudo h1{
-    font-size: 30px;
+    font-size: 35px;
     color: Very dark  hsl(212, 21%, 14%);
     font-weight: 800;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-family:  'Franceus' sans-serif;
 }
 .container .conteudo .texto-valor{
  
  display: flex;
  justify-content: space-around;
  align-items: center;
+ font-family: 'Fraunceus';
 }
+
 .container .conteudo .botão{
     width: 180px;
     height: 50px;
