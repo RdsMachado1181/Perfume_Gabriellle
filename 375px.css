@@ -32,11 +32,16 @@
          flex-wrap: wrap;
         display: inline-block;
     }
+    .container .conteudo .texto-valor{
+ margin-left: 25px;
+ margin-right: 25px;
+       }
+
     .container .conteudo h1{
         font-size: 25px;
     }
     .container .conteudo .botão{
-        width:  250px;
+        width: 80%;
         height: 50px; 
     border-color: white;
 margin-bottom: 20px;
