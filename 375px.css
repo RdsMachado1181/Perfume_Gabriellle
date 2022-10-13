@@ -1,15 +1,16 @@
 @media ( max-width: 500px    ){
     *{
         font-size: 15px;
-         
+       
     }
     .container{
-        width:360px ;
+        width:350px ;
          height: 500px;
         display: flex;
         flex-direction: column;
         margin: 20px;
-    
+ justify-content: center;
+ 
     }
     .container .foto{
         width:100%;
