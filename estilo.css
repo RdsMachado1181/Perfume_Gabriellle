@@ -3,7 +3,7 @@
     padding: 0px ;
     box-sizing: border-box;
     font-size: 14px;
-    font-family: 'Fraunces';
+    font-family: 'Montserrat', sem serifa;
 }
 body{
    background-color: hsl(30, 38%, 92%);
@@ -30,7 +30,7 @@ body{
     width:100% ;
     height:100%; 
    border-radius: 20px 0px 0px 20px ; 
-
+ 
 } 
 
 .container .conteudo{
@@ -49,7 +49,7 @@ border-radius: 0px 20px 20px 0px ;
     font-size: 30px;
     color: Very dark  hsl(212, 21%, 14%);
     font-weight: 600;
-    
+ 
 }
 .container .conteudo .texto-valor{
  
