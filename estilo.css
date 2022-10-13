@@ -54,6 +54,8 @@ border-radius: 0px 20px 20px 0px ;
 .container .conteudo .texto-valor{
  
  display: flex;
+ justify-content: space-between;
+ align-items: center;
 }
 .container .conteudo .botão{
     width: 180px;
