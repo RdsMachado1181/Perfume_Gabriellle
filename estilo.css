@@ -1,8 +1,8 @@
-*{
+ *{
     margin: 0px auto;
     padding: 0px ;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Montserrat', sem serifa;
 }
 body{
@@ -13,7 +13,7 @@ body{
     flex-basis: 1;
 } 
 .container{
-    width:500px ;
+    width:375px ;
      height: 500px;
     display: flex;
 
@@ -21,7 +21,7 @@ body{
 }
 
 .container .foto{
-    width:250px ;
+    width:50% ;
     height: 500px; 
   
  
@@ -34,7 +34,7 @@ body{
 } 
 
 .container .conteudo{
-    width:250px ;
+    width:50% ;
     height: 500px;
  background-color: white;
  text-align: left;
@@ -46,11 +46,14 @@ border-radius: 0px 20px 20px 0px ;
 }
 
 .container .conteudo h1{
-    font-size: 35px;
+    font-size: 25px;
     color: Very dark  hsl(212, 21%, 14%);
     font-weight: 800;
  font-family:  'Franceus' sans-serif;
 }
+.container .conteudo #texto-conteudo{
+line-height: 12px;
+} 
 .container .conteudo .texto-valor{
  
  display: flex;
@@ -60,8 +63,8 @@ border-radius: 0px 20px 20px 0px ;
 }
 
 .container .conteudo .botão{
-    width: 180px;
-    height: 50px;
+    width: 130px; 
+    height: 40px;
     border-radius: 10px;
    background-color: darkcyan;
    margin-top: 5px;
@@ -75,8 +78,8 @@ padding-right: 25px;
  
    }   
    .container .conteudo .botão img{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
    margin-top: 12px;
    }
    .container .conteudo .texto-valor  {
