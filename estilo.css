@@ -48,8 +48,8 @@ border-radius: 0px 20px 20px 0px ;
 .container .conteudo h1{
     font-size: 30px;
     color: Very dark  hsl(212, 21%, 14%);
-    font-weight: 600;
- 
+    font-weight: 800;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .container .conteudo .texto-valor{
  
