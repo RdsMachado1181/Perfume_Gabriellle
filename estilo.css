@@ -64,6 +64,11 @@ border-radius: 0px 20px 20px 0px ;
     cursor: pointer;
     color: white;
 border-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-right: 25px;
+ 
    }   
    .container .conteudo .botão img{
     width: 20px;
