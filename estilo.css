@@ -40,10 +40,10 @@ body{
     height: 500px;
  background-color: white;
  text-align: left;
-padding-top: 25px;
-padding-left: 25px;
+padding-top: 10px;
+padding-left:15px;
 border-radius: 0px 20px 20px 0px ;
- 
+ padding-right: 15px;
  
 }
 
