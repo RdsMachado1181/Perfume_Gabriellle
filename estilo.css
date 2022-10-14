@@ -15,7 +15,7 @@ body{
    align-items: center;
 } 
 .container{
-    width:375px ;
+    width:550px ;
      height: 500px;
     display: flex;
  justify-content: center;
@@ -23,7 +23,7 @@ body{
 }
 
 .container .foto{
-    width:350px ;
+    width:275px ;
     height: 500px; 
  
  
@@ -36,7 +36,7 @@ body{
 } 
 
 .container .conteudo{
-    width:50% ;
+    width:275px ;
     height: 500px;
  background-color: white;
  text-align: left;
